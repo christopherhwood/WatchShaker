@@ -3,6 +3,7 @@
 A quick and easy shaking gesture recognizer for the Apple Watch. 
 
 Adjust sensor sensitivity with the `kThreshold` variable:
+
 (note: too high and the watch face will turn off while shaking, too low and it picks up accidental shakes)
 ```swift
 // The threshold for how much acceleration needs to happen before an event will register. Can tune to your liking, although I've found 1.2 to work pretty well.
